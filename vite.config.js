@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Will be updated for custom domain
+  base: '/abhay-portfolio/', // GitHub Pages repository name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

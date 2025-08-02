@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    
     <!-- Primary Meta Tags -->
     <title>Abhay Patil - DevOps & Cloud Engineer | Azure Specialist | 14+ Years Experience</title>
     <meta name="title" content="Abhay Patil - DevOps & Cloud Engineer | Azure Specialist | 14+ Years Experience" />
@@ -14,28 +28,28 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://abhaypatil-devops.dev/" />
+    <meta property="og:url" content="https://abhaypatil001.github.io/abhay-portfolio/" />
     <meta property="og:title" content="Abhay Patil - DevOps & Cloud Engineer | Azure Specialist" />
     <meta property="og:description" content="Senior DevOps & Cloud Engineer with 14+ years of IT infrastructure experience. Specializing in Azure, AWS, Kubernetes, and large-scale cloud migrations." />
-    <meta property="og:image" content="https://abhaypatil-devops.dev/og-image.jpg" />
+    <meta property="og:image" content="https://abhaypatil001.github.io/abhay-portfolio/og-image.jpg" />
     <meta property="og:site_name" content="Abhay Patil - DevOps Portfolio" />
     <meta property="og:locale" content="en_US" />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://abhaypatil-devops.dev/" />
+    <meta property="twitter:url" content="https://abhaypatil001.github.io/abhay-portfolio/" />
     <meta property="twitter:title" content="Abhay Patil - DevOps & Cloud Engineer | Azure Specialist" />
     <meta property="twitter:description" content="Senior DevOps & Cloud Engineer with 14+ years of IT infrastructure experience. Specializing in Azure, AWS, and Kubernetes." />
-    <meta property="twitter:image" content="https://abhaypatil-devops.dev/twitter-image.jpg" />
+    <meta property="twitter:image" content="https://abhaypatil001.github.io/abhay-portfolio/twitter-image.jpg" />
     <meta property="twitter:creator" content="@abhaypatil" />
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/abhay-portfolio/favicon.svg" />
+    <link rel="icon" type="image/png" href="/abhay-portfolio/favicon.png" />
+    <link rel="apple-touch-icon" href="/abhay-portfolio/apple-touch-icon.png" />
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://abhaypatil-devops.dev/" />
+    <link rel="canonical" href="https://abhaypatil001.github.io/abhay-portfolio/" />
     
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,7 +67,7 @@
       "name": "Abhay Patil",
       "jobTitle": "DevOps & Cloud Engineer",
       "description": "Senior DevOps & Cloud Engineer with 14+ years of IT infrastructure experience, specializing in Azure, AWS, Kubernetes, and large-scale cloud migrations",
-      "url": "https://abhaypatil-devops.dev",
+      "url": "https://abhaypatil001.github.io/abhay-portfolio/",
       "sameAs": [
         "https://github.com/abhaypatil001",
         "https://linkedin.com/in/abhay-patil-devops"
@@ -114,6 +128,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/abhay-portfolio/src/main.jsx"></script>
   </body>
 </html>
