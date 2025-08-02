@@ -1,13 +1,12 @@
 # Abhay Patil - DevOps & Cloud Engineer Portfolio
 
-[![Deploy to GitHub Pages](https://github.com/abhaypatil001/abhay-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/abhaypatil001/abhay-portfolio/actions/workflows/deploy.yml)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat&logo=github)](https://abhaypatil.dev)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat&logo=github)](https://abhaypatil001.github.io/abhay-portfolio/)
 
 > Professional portfolio showcasing 14+ years of IT infrastructure experience with 3+ years focused on DevOps engineering.
 
 ## 🌟 Live Portfolio
 
-**[Visit Portfolio →](https://abhaypatil.dev)**
+**[Visit Portfolio →](https://abhaypatil001.github.io/abhay-portfolio/)**
 
 ## 👨‍💻 About
 
@@ -28,183 +27,104 @@ This portfolio represents the professional journey of **Abhay Patil**, a Senior 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18** - Modern UI library with hooks
-- **Vite** - Fast build tool and development server
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icon library
+- **Pure HTML5** - Semantic, accessible markup
+- **CSS3** - Modern styling with animations and responsive design
+- **Vanilla JavaScript** - Smooth scrolling and interactive elements
 
 ### Features
 - ✅ **Fully Responsive** - Mobile-first design
-- 🌙 **Dark/Light Mode** - System preference detection
-- 🚀 **Performance Optimized** - Lighthouse score 95+
+- 🚀 **Performance Optimized** - Fast loading, no dependencies
 - 🔍 **SEO Optimized** - Meta tags and structured data
 - ♿ **Accessible** - ARIA labels and keyboard navigation
+- 📱 **Mobile Friendly** - Works perfectly on all devices
 
-### DevOps & Deployment
-- **GitHub Actions** - Automated CI/CD pipeline
-- **GitHub Pages** - Static site hosting
-- **Custom Domain** - Professional domain setup
+### Deployment
+- **GitHub Pages** - Simple, reliable hosting
+- **Custom Domain Ready** - Easy to configure professional domain
 - **SSL/HTTPS** - Secure connection enforced
 
 ## 📁 Project Structure
 
 ```
 abhay-portfolio/
+├── index.html                        # Main portfolio page
 ├── public/
 │   ├── CV_Abhay_Patil_DevOps.pdf    # Resume download
-│   ├── CNAME                         # Custom domain config
 │   └── favicon.svg                   # Site favicon
-├── src/
-│   ├── components/                   # React components
-│   │   ├── Header.jsx               # Navigation header
-│   │   ├── Hero.jsx                 # Landing section
-│   │   ├── About.jsx                # Professional summary
-│   │   ├── Skills.jsx               # Technical skills
-│   │   ├── Certifications.jsx       # Professional certifications
-│   │   ├── Projects.jsx             # Featured projects
-│   │   ├── Resume.jsx               # Work experience
-│   │   ├── Contact.jsx              # Contact form
-│   │   └── Footer.jsx               # Site footer
-│   ├── contexts/
-│   │   └── ThemeContext.jsx         # Dark/light mode
-│   ├── assets/
-│   │   └── profile-photo.jpg        # Professional photo
-│   ├── App.jsx                      # Main app component
-│   └── index.css                    # Global styles
-├── .github/workflows/
-│   └── deploy.yml                   # GitHub Actions deployment
-├── tailwind.config.js               # Tailwind configuration
-├── vite.config.js                   # Vite configuration
-└── package.json                     # Dependencies and scripts
+├── README.md                         # Project documentation
+└── .gitignore                        # Git ignore rules
 ```
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
+### View Locally
+Simply open `index.html` in your web browser - no build process required!
 
-### Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/abhaypatil001/abhay-portfolio.git
-   cd abhay-portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open browser**
-   Navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
+### Deploy to GitHub Pages
+1. Fork or clone this repository
+2. Go to repository **Settings** → **Pages**
+3. Set source to **"Deploy from a branch"**
+4. Select **"main"** branch and **"/ (root)"** folder
+5. Your site will be live at `https://yourusername.github.io/abhay-portfolio/`
 
 ## 📱 Portfolio Sections
 
 ### 🏠 Hero Section
-- Dynamic role animation
 - Professional introduction with key statistics
-- Call-to-action buttons
-- Social media links
+- Dynamic animations and call-to-action buttons
+- Contact information and social links
 
 ### 👨‍💻 About Section
 - Professional summary from 14+ years experience
 - Core competencies in cloud and DevOps
 - Key achievements and metrics
-- Specialization areas
 
 ### 🛠️ Skills Section
-- Categorized technical skills with proficiency levels
-- Tools and technologies from actual experience
-- Professional certifications showcase
+- Technical skills with visual icons
+- Categorized by expertise areas
+- All technologies from actual experience
 
-### 🏆 Certifications Section
-- Microsoft Azure Administrator Associate
-- Microsoft Azure Fundamentals
-- AWS Certified Solutions Architect – Associate
-- VMware Certified Professional - Data Center Virtualization
-
-### 💼 Projects Section
-- Enterprise-level DevOps projects
-- Technology stack highlights
-- Real-world implementations
-
-### 📄 Resume Section
-- Complete work history (7 positions)
+### 💼 Experience Section
+- Complete work history timeline
 - Detailed achievements and responsibilities
-- Education background
-- Downloadable PDF resume
+- Progressive career growth demonstration
 
 ### 📞 Contact Section
 - Professional contact information
-- Contact form with validation
-- Social media links
-- Availability status
-
-## 🚀 Deployment
-
-### Automatic Deployment
-- Pushes to `main` branch trigger automatic deployment
-- GitHub Actions builds and deploys to GitHub Pages
-- Custom domain configured with SSL/HTTPS
-
-### Manual Deployment
-```bash
-npm run deploy
-```
+- Direct links to email, phone, LinkedIn
+- Availability status and call-to-action
 
 ## 📊 Performance
 
 - **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Mobile Responsive**: Optimized for all screen sizes
+- **First Contentful Paint**: < 1.0s
+- **No Dependencies**: Pure HTML/CSS/JS for maximum speed
+- **Mobile Optimized**: Perfect responsive design
 
 ## 🔧 Customization
 
 ### Update Personal Information
-1. Modify components in `src/components/`
-2. Update contact details in `Contact.jsx`
-3. Replace profile photo in `src/assets/`
-4. Update resume PDF in `public/`
+1. Edit `index.html` with your details
+2. Replace `public/CV_Abhay_Patil_DevOps.pdf` with your resume
+3. Update contact information and social links
 
 ### Styling
-- Colors: Edit `tailwind.config.js`
-- Global styles: Modify `src/index.css`
-- Component styles: Update individual component files
+- All styles are embedded in `index.html` for simplicity
+- Easy to modify colors, fonts, and layout
+- Responsive design with mobile-first approach
 
 ### Content
-- Experience: Update `Resume.jsx`
-- Skills: Modify `Skills.jsx`
-- Projects: Edit `Projects.jsx`
-- Certifications: Update `Certifications.jsx`
+- Experience section: Update with your work history
+- Skills section: Modify with your technical expertise
+- Achievements: Replace with your accomplishments
 
 ## 📈 SEO Features
 
-- Comprehensive meta tags
-- Open Graph tags for social sharing
-- Twitter Card integration
-- Structured data (JSON-LD)
-- Sitemap generation
-- Canonical URLs
+- Comprehensive meta tags for search engines
+- Open Graph tags for social media sharing
+- Structured data for rich snippets
+- Semantic HTML for better accessibility
+- Fast loading for improved rankings
 
 ## 🤝 Professional Background
 
@@ -231,18 +151,18 @@ npm run deploy
 - 📱 Phone: [+91-9823850777](tel:+919823850777)
 - 🌍 Location: Pune, India
 - 💼 LinkedIn: [abhay-patil-devops](https://linkedin.com/in/abhay-patil-devops)
-- 🌐 Portfolio: [abhaypatil.dev](https://abhaypatil.dev)
+- 🌐 Portfolio: [abhaypatil001.github.io/abhay-portfolio](https://abhaypatil001.github.io/abhay-portfolio/)
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Built with modern web technologies for optimal performance
+- Built with modern web standards for optimal performance
 - Designed with accessibility and user experience in mind
 - Optimized for search engines and social sharing
-- Deployed with automated CI/CD for reliability
+- Deployed with GitHub Pages for reliability
 
 ---
 
