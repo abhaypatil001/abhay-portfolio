@@ -133,9 +133,9 @@ const Resume = () => {
   ];
 
   const handleDownloadResume = () => {
-    // Create a link to download the CV
+    // Create a link to download the CV - use relative path
     const link = document.createElement('a');
-    link.href = '/CV_Abhay_Patil_DevOps.pdf';
+    link.href = './CV_Abhay_Patil_DevOps.pdf';
     link.download = 'Abhay_Patil_DevOps_Resume.pdf';
     document.body.appendChild(link);
     link.click();
