@@ -509,6 +509,7 @@
             <i class="fas fa-chevron-down"></i>
         </div>
     </section>
+<!-- About Section -->
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
@@ -517,7 +518,7 @@
                 <p class="section-subtitle">14+ Years of IT & DevOps Excellence</p>
             </div>
             
-            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 4rem; align-items: start;">
+            <div style="display: grid; grid-template-columns: 1fr 300px; gap: 4rem; align-items: start; margin-bottom: 3rem;">
                 <div>
                     <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--gray-900); margin-bottom: 1.5rem;">Professional Journey</h3>
                     <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--gray-700);">
@@ -526,9 +527,42 @@
                     <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--gray-700);">
                         My expertise spans <strong>Microsoft Azure, Amazon Web Services (AWS), and VMware ecosystems</strong>, where I consistently deliver solutions that reduce downtime, enhance deployment efficiency, and optimize costs. I have successfully led large-scale cloud migrations, implemented robust CI/CD pipelines, and managed complex hybrid environments.
                     </p>
-                    
+                </div>
+                
+                <!-- Professional Photo -->
+                <div style="display: flex; justify-content: center;">
+                    <div style="position: relative;">
+                        <!-- Background decoration -->
+                        <div style="position: absolute; inset: 0; background: var(--gradient-primary); border-radius: 50%; blur: 30px; opacity: 0.2; transform: scale(1.1);"></div>
+                        
+                        <!-- Image container -->
+                        <div style="position: relative; width: 280px; height: 280px; border-radius: 50%; overflow: hidden; box-shadow: var(--shadow-2xl); border: 8px solid var(--white);">
+                            <img
+                                src="./public/abhay-photo.jpg"
+                                alt="Abhay Patil - DevOps & Cloud Engineer"
+                                style="width: 100%; height: 100%; object-fit: cover; object-position: center;"
+                            />
+                            
+                            <!-- Overlay gradient -->
+                            <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(37, 99, 235, 0.2) 0%, transparent 50%);"></div>
+                        </div>
+
+                        <!-- Floating elements -->
+                        <div style="position: absolute; top: -10px; right: -10px; width: 60px; height: 60px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg); border: 4px solid var(--white);">
+                            <i class="fas fa-cloud" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <div style="position: absolute; bottom: -10px; left: -10px; width: 50px; height: 50px; background: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg); border: 4px solid var(--white);">
+                            <i class="fas fa-cogs" style="color: white; font-size: 1.2rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 4rem; align-items: start;">
+                <div>
+                    <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--gray-900); margin-bottom: 1.5rem;">Core Competencies</h3>
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2rem;">
-                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200);">
+                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-xl)'; this.style.borderColor='var(--primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-md)'; this.style.borderColor='var(--gray-200)'">
                             <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
                                 <i class="fab fa-docker" style="color: white; font-size: 1.3rem;"></i>
                             </div>
@@ -536,7 +570,7 @@
                             <p style="font-size: 0.9rem; color: var(--gray-600);">Proficient in Azure Kubernetes Service (AKS) & AWS EKS deployments</p>
                         </div>
                         
-                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200);">
+                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-xl)'; this.style.borderColor='var(--primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-md)'; this.style.borderColor='var(--gray-200)'">
                             <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
                                 <i class="fas fa-code" style="color: white; font-size: 1.3rem;"></i>
                             </div>
@@ -544,7 +578,7 @@
                             <p style="font-size: 0.9rem; color: var(--gray-600);">Expertise in Terraform, ARM Templates, and CloudFormation</p>
                         </div>
                         
-                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200);">
+                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-xl)'; this.style.borderColor='var(--primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-md)'; this.style.borderColor='var(--gray-200)'">
                             <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
                                 <i class="fas fa-rocket" style="color: white; font-size: 1.3rem;"></i>
                             </div>
@@ -552,7 +586,7 @@
                             <p style="font-size: 0.9rem; color: var(--gray-600);">Robust CI/CD processes with Jenkins and Azure DevOps</p>
                         </div>
                         
-                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200);">
+                        <div style="padding: 1.5rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-xl)'; this.style.borderColor='var(--primary)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-md)'; this.style.borderColor='var(--gray-200)'">
                             <div style="width: 50px; height: 50px; background: var(--gradient-primary); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
                                 <i class="fas fa-cloud-upload-alt" style="color: white; font-size: 1.3rem;"></i>
                             </div>
@@ -562,7 +596,7 @@
                     </div>
                 </div>
                 
-                <div style="background: var(--white); padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-xl); border: 1px solid var(--gray-200);">
+                <div style="background: var(--white); padding: 2rem; border-radius: 20px; box-shadow: var(--shadow-xl); border: 1px solid var(--gray-200); position: sticky; top: 2rem;">
                     <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--gray-900); margin-bottom: 2rem; text-align: center;">Key Achievements</h3>
                     
                     <div style="display: flex; flex-direction: column; gap: 1.5rem;">
@@ -610,7 +644,6 @@
             </div>
         </div>
     </section>
-
     <!-- Skills Section -->
     <section id="skills" class="section" style="background: var(--gray-50);">
         <div class="container">
@@ -619,68 +652,238 @@
                 <p class="section-subtitle">Comprehensive expertise in enterprise-grade technologies</p>
             </div>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
-                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200);">
-                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <!-- Cloud Platforms -->
+                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-2xl)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-lg)'">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-cloud" style="color: white; font-size: 1.3rem;"></i>
                         </div>
                         <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--gray-900);">Cloud Platforms</h3>
                     </div>
-                    <div style="display: flex; flex-wrap: gap: 0.5rem;">
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Microsoft Azure</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Amazon Web Services</span>
+                    <div style="space-y: 1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Microsoft Azure</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">95%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 95%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Amazon Web Services</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">88%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 88%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200);">
-                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                <!-- Infrastructure as Code -->
+                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-2xl)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-lg)'">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #f093fb, #f5576c); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-code" style="color: white; font-size: 1.3rem;"></i>
                         </div>
                         <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--gray-900);">Infrastructure as Code</h3>
                     </div>
-                    <div style="display: flex; flex-wrap: gap: 0.5rem;">
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Terraform</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">ARM Templates</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">CloudFormation</span>
+                    <div style="space-y: 1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Terraform</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">92%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 92%; background: linear-gradient(135deg, #f093fb, #f5576c); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">ARM Templates</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">90%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 90%; background: linear-gradient(135deg, #f093fb, #f5576c); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">CloudFormation</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">85%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 85%; background: linear-gradient(135deg, #f093fb, #f5576c); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200);">
-                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                <!-- Containerization -->
+                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-2xl)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-lg)'">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #4facfe, #00f2fe); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
                             <i class="fab fa-docker" style="color: white; font-size: 1.3rem;"></i>
                         </div>
                         <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--gray-900);">Containerization</h3>
                     </div>
-                    <div style="display: flex; flex-wrap: gap: 0.5rem;">
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Azure Kubernetes Service</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Docker</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Helm</span>
+                    <div style="space-y: 1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Azure Kubernetes Service</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">90%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 90%; background: linear-gradient(135deg, #4facfe, #00f2fe); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Docker</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">88%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 88%; background: linear-gradient(135deg, #4facfe, #00f2fe); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Helm</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">82%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 82%; background: linear-gradient(135deg, #4facfe, #00f2fe); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200);">
-                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                <!-- CI/CD & DevOps -->
+                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-2xl)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-lg)'">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #43e97b, #38f9d7); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-rocket" style="color: white; font-size: 1.3rem;"></i>
                         </div>
                         <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--gray-900);">CI/CD & DevOps</h3>
                     </div>
-                    <div style="display: flex; flex-wrap: gap: 0.5rem;">
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Azure DevOps</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Jenkins</span>
-                        <span style="padding: 0.5rem 1rem; background: var(--gray-100); color: var(--gray-700); border-radius: 20px; font-size: 0.9rem;">Git/GitHub</span>
+                    <div style="space-y: 1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Azure DevOps</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">95%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 95%; background: linear-gradient(135deg, #43e97b, #38f9d7); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Jenkins</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">90%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 90%; background: linear-gradient(135deg, #43e97b, #38f9d7); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Git/GitHub</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">92%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 92%; background: linear-gradient(135deg, #43e97b, #38f9d7); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scripting Languages -->
+                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-2xl)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-lg)'">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-terminal" style="color: white; font-size: 1.3rem;"></i>
+                        </div>
+                        <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--gray-900);">Scripting Languages</h3>
+                    </div>
+                    <div style="space-y: 1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Python</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">85%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 85%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">YAML</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">90%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 90%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">Bash</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">88%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 88%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Virtualization -->
+                <div style="background: var(--white); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='var(--shadow-2xl)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='var(--shadow-lg)'">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                        <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-server" style="color: white; font-size: 1.3rem;"></i>
+                        </div>
+                        <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--gray-900);">Virtualization</h3>
+                    </div>
+                    <div style="space-y: 1rem;">
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">VMware vCenter</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">95%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 95%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">ESXi</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">92%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 92%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                                <span style="font-weight: 600; color: var(--gray-800); font-size: 0.95rem;">HP OneView</span>
+                                <span style="font-weight: 600; color: var(--primary); font-size: 0.9rem;">85%</span>
+                            </div>
+                            <div style="height: 8px; background: var(--gray-200); border-radius: 4px; overflow: hidden;">
+                                <div style="height: 100%; width: 85%; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 4px; transition: width 1s ease-in-out;"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             
-            <!-- Certifications -->
+            <!-- Certifications remain the same -->
             <div style="background: var(--white); padding: 3rem; border-radius: 20px; box-shadow: var(--shadow-xl); border: 1px solid var(--gray-200);">
                 <h3 style="font-size: 1.8rem; font-weight: 700; color: var(--gray-900); text-align: center; margin-bottom: 2rem;">Professional Certifications</h3>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
-                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200);">
+                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'; this.style.background='var(--white)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow=''; this.style.background='var(--gray-50)'">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #00a1f1, #0078d4); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fab fa-microsoft" style="color: white; font-size: 1.3rem;"></i>
                         </div>
@@ -690,7 +893,7 @@
                         </div>
                     </div>
                     
-                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200);">
+                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'; this.style.background='var(--white)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow=''; this.style.background='var(--gray-50)'">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #ff9900, #ff6600); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fab fa-aws" style="color: white; font-size: 1.3rem;"></i>
                         </div>
@@ -700,7 +903,7 @@
                         </div>
                     </div>
                     
-                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200);">
+                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'; this.style.background='var(--white)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow=''; this.style.background='var(--gray-50)'">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #00a1f1, #0078d4); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fab fa-microsoft" style="color: white; font-size: 1.3rem;"></i>
                         </div>
@@ -710,7 +913,7 @@
                         </div>
                     </div>
                     
-                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200);">
+                    <div style="display: flex; align-items: center; gap: 1rem; padding: 1.5rem; background: var(--gray-50); border-radius: 12px; border: 1px solid var(--gray-200); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='var(--shadow-lg)'; this.style.background='var(--white)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow=''; this.style.background='var(--gray-50)'">
                         <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #607d8b, #455a64); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
                             <i class="fas fa-server" style="color: white; font-size: 1.3rem;"></i>
                         </div>
@@ -723,7 +926,6 @@
             </div>
         </div>
     </section>
-    <!-- Experience Section -->
     <section id="experience" class="section">
         <div class="container">
             <div class="section-header">
